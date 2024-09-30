@@ -1,0 +1,100 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* =================login page============== */
+.loginPage {
+  background-image: url("https://t4.ftcdn.net/jpg/03/57/34/39/360_F_357343965_u58BFcRrziBVMqgt6liwPHJKcIjHsPnc.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  padding: 30px;
+  width: 400px;
+  background-color: var(--white);
+  box-shadow: 0px 3px 10px rgb(171, 170, 170);
+  border-radius: 10px;
+}
+
+.loginForm h2 {
+  margin: 20px 0px 30px;
+  text-transform: capitalize;
+}
+
+.loginForm label {
+  margin: 5px 0;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 100%;
+}
+
+.loginForm label input {
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 50px;
+  background-color: transparent;
+  border: 1px solid var(--black);
+  text-transform: capitalize;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.loginForm a {
+  color: var(--black);
+  display: inline-block;
+  margin-top: 20px;
+}
+
+table {
+  border: 1px solid var(--black);
+  vertical-align: middle;
+
+}
+table td{
+  vertical-align: middle;
+}
+.add-btn button{
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+table tbody img{
+  width: 100px;
+}
